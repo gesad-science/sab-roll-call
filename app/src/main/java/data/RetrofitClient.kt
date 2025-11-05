@@ -22,7 +22,7 @@ data class ApiRecord(
 )
 
 object RetrofitClient {
-    private const val BASE_URL = "http://10.134.1.177:8000"
+    private const val BASE_URL = "https://nonpossibly-aspish-fletcher.ngrok-free.dev"
 
     val instance: ApiService by lazy {
         Retrofit
