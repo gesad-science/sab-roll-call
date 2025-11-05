@@ -35,6 +35,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        presenceViewModel.loadMock()
+        presenceViewModel.loadPresences()
     }
 }
